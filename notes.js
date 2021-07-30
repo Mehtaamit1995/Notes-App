@@ -6,7 +6,8 @@ const addNote = (title, body) => {
   const notes = loadNotes();
   //const duplicateNotes = notes.filter((note) => note.title === title);
   const duplicateNote = notes.find((note) => notes.title === title);
-
+  
+  // previous function without arrow function
   //   const duplicateNotes = notes.filter(function (note)  {
   //     return note.title === title;
   //   });
